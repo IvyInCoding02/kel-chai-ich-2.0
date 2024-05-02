@@ -1,0 +1,72 @@
+/* Admin CSS */
+
+.lockImg{
+    width: 15%;
+  }
+  
+  label{
+    color: black;
+  }
+  
+  input{
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+    
+  }
+  .container{
+    width: 500px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 200px auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header{
+    color: black;
+  }
+
+  
+    .adminButton {
+      width: 400px;
+      margin-top: 12px;
+      padding: 10px 15px;
+      background-color: rgb(79, 194, 64);
+      border: none;
+      cursor: pointer;
+      text-transform: upperCase;
+    }
+
+  /* Tablet styling */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%; 
+    margin: 100px auto;
+  }
+
+  input {
+    width: 100%; 
+  }
+
+  .adminButton {
+    width: 100%; 
+  }
+}
+
+/* Mobile styling */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%; 
+    margin: 70px auto 20px auto; 
+  }
+
+  input {
+    width: 100%;
+  }
+  .adminButton {
+    width: 100%;
+  }
+}

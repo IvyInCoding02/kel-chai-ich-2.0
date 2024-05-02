@@ -1,0 +1,179 @@
+/* 
+.adminContainer {
+    display: grid;
+    margin: 200px auto;
+    row-gap: 50px;
+    place-items: center;
+  ;
+  }
+
+  .scholarshipForm{
+    margin: 20px auto;
+  }
+  
+  h1 {
+    color: green;
+  }
+  
+  .btns {
+    width: 50%;
+    display: grid;
+    grid-auto-flow:row;
+    grid-gap: 600px;
+    margin: 10px auto;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    width: 300%;
+    display: grid;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logoutBtn {
+    background-color:green; 
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 12px 80px;
+    cursor: pointer;
+   
+  }
+
+  button{
+    background: white;
+  }
+  
+
+  .subtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(6, 88, 38);
+    color: white;
+    margin: 10px auto;
+    padding: 10px 40px;
+
+  } */
+  
+body {
+  color: #008000; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.adminContainer {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerText{
+  color: #008000; 
+  margin: 150px 360px 20px 360px;
+  
+}
+
+.scholarshipForm {
+  border: 2px solid #008000; 
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+
+.resourcesForm {
+  color:#008000;
+  background-color: #ffffff; 
+  border: 2px solid #008000; 
+  padding: 20px;
+  margin: -110px 10px 10px 10px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #008000; 
+} 
+
+input[type="file"] {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.btn{
+  background-color: #008000; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logoutBtn {
+  background-color: #008000; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 100px;
+  margin: 30px 650px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .headerText {
+    margin: 100px 150px 40px 150px;
+  }
+
+  .scholarshipForm,
+  .resourcesForm {
+    margin: 10px 10%;
+  }
+
+
+  .logoutBtn {
+    margin: 10px 280px;
+  }
+}
+
+/* Media queries for phones */
+@media only screen and (max-width: 767px) {
+  .headerText {
+    margin: 100px 90px 20px 90px;
+  }
+
+  .scholarshipForm,
+  .resourcesForm {
+    margin: 10px 5%;
+  }
+
+ 
+  .logoutBtn {
+    margin: 10px 20px;
+  }
+}
+
+
+
+
+
+
+

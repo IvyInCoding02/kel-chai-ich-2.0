@@ -1,0 +1,159 @@
+{
+    "scholarships": [
+        {
+            "id" :1,
+            "title": "Aga Khan Foundation’s International Scholarship Programme (ISP)",
+            "about": "Half Grant Half Loan is open to Kyrgyz Citizens looking to pursue their Masters's or Ph.D. abroad. Contact for Kyrgyz Republic Kyrgyz Republic: akf.hr.kg@akdn.org, tel: +996 312 97 62 47",
+            "requir": "Masters and PhD only",
+            "picture": "https://static.youthop.com/uploads/2023/06/aga-khan-foundations-international-scholarship-programme-2024.jpg",
+            "deadline": "January 2024",
+            "category": "Masters and PhD",
+            "link": "https://the.akdn/en/what-we-do/developing-human-capacity/education/international-scholarships?ref=www.worldremit.com",
+            "country": "Any"
+        },
+
+        {
+            "id" :2,
+            "title": "MPOWER Global Citizen Scholarship",
+            "about": "Several smaller scholarships between $1000 and $10,000",
+            "requir": "Non-US Citizen",
+            "picture": "https://149818895.v2.pressablecdn.com/wp-content/uploads/2022/11/MPOWER-Monthly-Scholarship-Series-for-International-Students-U.S.-and-Canada-1024x512.jpg",
+            "deadline": "Varies, Most July 15th some Renew each Month",
+            "category": "MBA, Women in Stem, Refugee",
+            "link":"https://www.mpowerfinancing.com/scholarships?utm_campaign=elle-search-branded-US/CA-RES&utm_source=google&utm_medium=cpc&gclid=CjwKCAjwq4imBhBQEiwA9Nx1BthIluWsFKV6RwAvhRktUQK7tiSrOO-QXkCUK-3cG2yFyePrS1II2hoCuxIQAvD_BwE#learn-more",
+            "country": "USA, Canada"
+        },
+
+        {
+            "id" :3,
+            "title": "You Are Welcome Here",
+            "about": "First-year international applicant in any field of study/major to a participating college or university. International applicant is an individual who holds citizenship in a country outside the U.S. and who does not also possess U.S. citizenship or permanent residency. Applicant demonstrates interest and initiative in promoting intercultural learning and exchange",
+            "requir": "First Year Students",
+            "picture": "https://static.youthop.com/uploads/2023/06/aga-khan-foundations-international-scholarship-programme-2024.jpg",
+            "deadline": "Spring and Summer Deadlines",
+            "category": "First Year International Students",
+            "link":"https://www.youarewelcomehereusa.org/information-students",
+            "country": "USA"
+        }, 
+
+        {
+            "id" :4,
+            "title": "Education Abraod",
+            "about": "A $5000 scholarship for undergraduate. You are: Globally-minded and interested in other cultures. A high academic achiever with consistently outstanding grades.Involved in extracurricular groups and activities. Excited to begin your adventure and share your story with the world!",
+            "requir": "To apply for our scholarship: You must have applied(or will apply) to a college or university in the USA. You must have applied (or will apply) for a Bachelor's level degree starting in Fall 2024. The degree program must be studied either on campus or online via distance learning from an institute based in the USA. You must meet the entry requirements for the college or university, including: Holding a valid transcript from your high school (or equivalent. Meeting any language requirements for the program. You must hold or be eligible to apply for a relevant study visa(if applicable).You cannot hold US citizenship or currently reside in the USA unless you are currently studying abroad",
+            "picture": "https://img.emg-services.net/HtmlPages/HtmlPage19901/eu-2024-1.jpg",
+            "deadline": "June 30",
+            "category": "Any",
+            "link":"https://www.educations.com/scholarships/study-a-bachelors-in-usa-19901",
+            "country": "USA"
+        },
+
+        {
+            "id" :5,
+            "title": "Jay Holstine Scholarship",
+            "about": "1 $1,000 and  3 $750 scholarships for STEM students looking to pursue their undergraduate",
+            "requir": "Attend an accredited US-Based university. Possess an excellent academic record.Demonstrate economic need in the effort to complete their education. ",
+            "picture": "https://jayholstinescholarship.com/wp-content/uploads/2022/08/Jay-Holstine-Scholarship-Logo.png",
+            "deadline": "January 21",
+            "category": "STEM",
+            "link":"https://jayholstinescholarship.com/",
+            "country": "USA"
+        },
+
+        {
+            "id" :6,
+            "title": "Marvel Optics National Scholarhship Contest",
+            "about": "The essay winner selected will receive a $1500 scholarship. The founders of MarvelOptics.com are young entrepreneurs who know the value of quality education.",
+            "requir": "Any current, full-time student at an accredited two-year or four-year American university or college is welcome to apply to the Scholarship Program. There is no age nor specified major requirement.",
+            "picture": "https://marveloptics.com/wp-content/uploads/2019/08/12JUL2019-MarvelOptics-Scholarship-Header-Image-764x400.jpg",
+            "deadline": "August 15",
+            "category": "Any",
+            "link":"https://marveloptics.com/blog/scholarship-program/",
+            "country": "USA"
+        },
+
+        {
+            "id" :7,
+            "title": "Race Entry Student Scholarships",
+            "about": "Race Entry is an online race registration company that supports students of all disciplines who pursue self-improvement and enhanced health through race preparation and participation. Annually Race Entry is offering a $500 scholarship to the winner of our annual “Race to Inspire” essay contest. Many people have different reasons for running in a race. We want to hear & share your inspiring story.",
+            "requir": "Participants must be able to verify enrollment for college at an accredited university inside the USA during the fall semester of the same year the essay is submitted.",
+            "picture": "https://scholarships360.org/wp-content/uploads/2022/02/Race-Entry-Student-Scholarship.png",
+            "deadline": "August 15",
+            "category": "Any",
+            "link":"https://www.raceentry.com/race-to-inspire-scholarship",
+            "country": "USA"
+        },
+
+        {
+            "id" :8,
+            "title": "Go Skills",
+            "about": "This is a scholarship aimed at supporting women who want to start and lead their own businesses.",
+            "requir": "Any female high-school or college student, who wants to start her own business.",
+            "picture": "https://149606532.v2.pressablecdn.com/wp-content/uploads/2021/06/Go-Skills-Scholarship-for-High-School-or-College-Student.png",
+            "deadline": "September 15",
+            "category": "Business",
+            "link":"https://www.goskills.com/Scholarship",
+            "country": "USA"
+        },
+
+        {
+            "id" :9,
+            "title": "2023 Platt Family Essay Contest",
+            "about": "This scholarship was established in memory of Chuck Platt, co-founder and longtime Treasurer of The Lincoln Forum, and sponsor of its annual Platt Family Lincoln Essay Contest for college students. Designed for full-time, undergraduate students in an American college or university, recipients are chosen by the Scholarship Committee of The Lincoln Forum based on their submitted essay. Essay’s topics are chosen each year by this committee. The first-place winner has the opportunity to attend the annual symposium of The Lincoln Forum in Gettysburg, PA in November.",
+            "requir": "You do not have to be an American citizen, but you do need to be attending an AMERICAN COLLEGE OR UNIVERSITY during the eligibility period",
+            "picture": "https://scholarships360.org/wp-content/uploads/2022/06/Platt-Family-Essay-Contest.png",
+            "deadline": "July 31",
+            "category": "Social Science",
+            "link":"https://www.thelincolnforum.org/platt-family-essay-contest",
+            "country": "USA"
+        },
+
+        {
+            "id" :10,
+            "title": "The Clubs of America Scholarship Program",
+            "about": "A general purpsose scholarship for $1,000",
+            "requir": "Any current college student of an accredited U.S. college or university with a cumulative GPA of at least 3.0 is welcome to apply.",
+            "picture": "https://www.greatclubs.com/wp-content/uploads/2017/11/logo-clubs.svg",
+            "deadline": "August 31",
+            "category": "Any",
+            "link":"https://www.greatclubs.com/scholarship/",
+            "country": "USA"
+        },
+
+        {
+            "id" :11,
+            "title": "Smart Rain Scholarship",
+            "about": "A $1000 scholarship for those interested in water conservation",
+            "requir": "High school seniors, as well as current, full-time students at accredited two-year or four-year American universities or colleges may apply. There is no age or specified major requirement.",
+            "picture": "https://149818895.v2.pressablecdn.com/wp-content/uploads/2021/10/Corporate-Fellowships-9-1024x597.png",
+            "deadline": "August 5",
+            "category": "Conservation",
+            "link":"https://smartrain.net/scholarship-apply-today/",
+            "country": "USA"
+        },
+
+        {
+            "id" :12,
+            "title": "Lerna Study Abroad Award",
+            "about": "A $2000 scholarship for students wanting to study abroad ",
+            "requir": "The Study Abroad Award essay competition is open to students who want to study abroad at college level.",
+            "picture": "hhttps://lerna.courses/wp-content/uploads/study-abroad-international-students-feature.jpg.webp",
+            "deadline": "November 1",
+            "category": "Any",
+            "link":"https://lerna.courses/study-abroad-award/",
+            "country": "Any"
+        },
+
+        {
+            "id" :13,
+            "title": "Thomas J Henry Leadership Scholarship",
+            "about": "The Thomas J. Henry Leadership Scholarship rewards students who show skills in motivating others inside and outside of the classroom. We look to leaders for advice, direction, inspiration, and to keep us moving forward when things get tough.",
+            "requir": "The student must be attending or planning to attend an accredited college or university during the semester for which the scholarship application is awarded. To be eligible, each student must be enrolled in, or planning to enroll in, an accredited college or university. Applicants currently enrolled in a college or university must have a minimum GPA of 2.8 to qualify for the scholarship. The Importance of Leadership Essay Scholarship is available to all students ages 18 and over, at all levels from high school seniors to graduate school.",
+            "picture": "https://149606532.v2.pressablecdn.com/wp-content/uploads/2021/07/Thomas-J.-Henry-Leadership-1000-Scholarship.jpg",
+            "deadline": "November 1",
+            "category": "Leadership",
+            "link":"https://thomasjhenrylaw.com/community-events/thomas-j-henry-leadership-scholarship/",
+            "country": "USA"
+        }
+    ]
+}

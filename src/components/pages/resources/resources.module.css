@@ -1,0 +1,141 @@
+.headline {
+  max-width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  margin-bottom: 40px;
+  color: black
+}
+
+.headlineTitle {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(4, 52, 4);
+}
+
+.headlineDescr {
+  max-width: 95%;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .headline {
+    margin: 20px auto 20px auto;
+  }
+
+  .headlineTitle {
+    font-size: 40px; 
+  }
+
+  .headlineDescr {
+    font-size: 16px; 
+  }
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 150px auto 50px auto;
+  background: rgb(34, 210, 116);
+  border-radius: 30px;
+  padding: 80px 5px;
+
+}
+  
+  .wrapper {
+    max-width:40%; 
+    display: grid;
+    margin: 0px 0 2px 10px;
+    box-sizing: border-box;
+    padding: 20px 20px 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(15, 206, 25, 0.25);
+  }
+  
+  .title {
+    color:green;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .img {
+    max-width: 350px;
+    max-height: 200px;
+    margin: 5px auto;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+  
+  .info {
+    max-width: 350px;
+    margin: 10px auto;
+    font-size: 18px;
+    color: green;
+  }
+
+  .download{
+    width: 80%;
+    color: white;
+    background: green;
+    padding: 10px 5px;
+    border-radius: 20px;
+    margin: 5px auto;
+    margin-left: 30px;
+  }
+  
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px 0px; 
+  }
+
+  .wraper{
+    width: 200%; 
+    margin: 0 10px 32px 10px;
+  }
+
+  .title {
+    font-size: 20px; 
+  }
+
+  .info {
+    font-size: 16px; 
+    text-align: center;
+  }
+
+  .download{
+    margin: 5px auto;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 20px 5px; 
+  }
+
+  .wrapper{
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 22px; 
+  }
+
+  .info {
+    font-size: 16px; 
+  }
+
+  .download {
+    width: 100%; 
+    margin: 0 auto;
+  }
+}
+

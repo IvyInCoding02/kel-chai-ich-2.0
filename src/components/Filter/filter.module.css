@@ -1,0 +1,104 @@
+.filter {
+    max-width: 90%;
+    margin: 30px auto;
+    margin-top: 50px;
+    background: rgb(70, 185, 80);
+    color: black;
+    text-align: center; 
+    border-radius: 20px;
+}
+
+.wrapper {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    border: 2px solid azure; 
+    border-radius: 20px;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+.filter-text {
+    margin-top: 16px;
+    font-size: 25px;
+}
+
+
+.controls {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+select {
+    width: 220px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 5px; 
+    font-size: 20px;
+    color: black;
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .filter {
+        margin-top: 30px; 
+    }
+
+    .wrapper {
+        padding: 10px; 
+    }
+
+    .filter-text {
+        font-size: 20px; 
+    }
+
+    select {
+        width: 30px; /* Smaller select width for tablets */
+        height: 30px; /* Smaller select height for tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .filter {
+        margin-top: 20px; /* Adjust top margin for phones */
+    }
+
+    .wrapper {
+        padding: 5px; /* Reduce padding for phones */
+    }
+
+    .filter-text {
+        font-size: 18px; /* Smaller font size for phones */
+    }
+
+    .amount-number {
+        width: 25px; /* Smaller input width for phones */
+        height: 25px; /* Smaller input height for phones */
+    }
+
+    .amount {
+        margin-right: 5px; /* Reduce margin for phones */
+    }
+
+    select {
+        width: 30px; /* Smaller select width for phones */
+        height: 30px; /* Smaller select height for phones */
+    }
+}
