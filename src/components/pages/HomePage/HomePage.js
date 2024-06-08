@@ -12,9 +12,12 @@ export default function HomePage() {
   return (
     <section>
         {/* <Container> */}
-        <div style={{margin:"50px"}}>
-            <Row className="align-items-center" style={{margin:"40px", background: "grey"}}>
-                <Col style={{padding:"30px"}} >
+        <div style={{margin:"10px"}}>
+            <Row className="align-items-center" style={{margin:"10px"}}>
+            <Col style={{padding:"30px"}} >
+                <img style={{marginRight:"15px", width:"100%"}} src={land} alt=""/>
+                </Col>
+                <Col >
                 <h1>KEL CHAI ICH - LAND OF OPPORTUNITIES...</h1>
                 <p>
                 Kel Chai Ich is nonprofit foundation that focuses on assisting
@@ -23,15 +26,12 @@ export default function HomePage() {
                 States.
                 </p>
                 </Col>
-                <Col>
-                <img style={{marginleft:"205px"}} src={land} alt=""/>
-                </Col>
             </Row>
             <div>
-            <h1 style={{marginLeft:"500px", padding:"40px"}}>OUR VISION</h1>
-            <Row className="align-items-center" style={{margin:"40px", background: "grey"}}>
+            <h1 style={{marginLeft:"100px", padding:"10px",fontSize:"70px"}}>OUR VISION</h1>
+            <Row className="align-items-center" style={{margin:"40px"}}>
                 <Col>
-                <img style={{marginLeft:"50px"}} src={vision1} alt=""/>
+                <img style={{width:"90%", marginLeft:"50px"}} src={vision1} alt=""/>
                 <p style={{width:"350px", textAlign:"center"}}>
                 Guide perspective girls from regions of Kyrgyzstan and fully
                 assist with the application process through mentorship and peer
@@ -39,14 +39,14 @@ export default function HomePage() {
               </p>
                 </Col>
                 <Col>
-                <img style={{marginLeft:"50px"}} src={vision2} alt=""/>
+                <img style={{width:"90%", marginLeft:"50px"}} src={vision2} alt=""/>
                 <p style={{width:"350px", textAlign:"center"}}>
                 Get all participants accepted to universities abroad with the
                 opportunity to qualify for needed scholarships and funding.
               </p>
                 </Col>
                 <Col>
-                <img style={{marginLeft:"50px"}} src={vision3} alt=""/>
+                <img style={{width:"90%", marginLeft:"50px"}} src={vision3} alt=""/>
                 <p style={{width:"350px", textAlign:"center"}}>
                 Establish a nation of educated girls investing and supporting
                 the younger generation of the program to pursue education at
@@ -56,23 +56,21 @@ export default function HomePage() {
             </Row>
             </div>
             <div>
-            <h1 style={{marginLeft:"500px", padding:"40px"}}>OUR MISSION</h1>
-            <Row className="align-items-center" style={{alignItems:"center", margin:"40px", background: "grey"}}>
-                <Col>
-                <img style={{marginLeft:"100px"}} src={mission1} alt=""/>
-                <p style={{width:"350px",textAlign:"center"}}>
+            <h1 style={{marginLeft:"650px", padding:"10px",fontSize:"70px"}}>OUR MISSION</h1>
+            <Row style={{alignItems:"center", paddingRight:"10px", marginBottom:"-150px"}} >
+              <img style={{width:"30%"}} src={mission1} alt=""/>
+              <p style={{width:"50%", fontSize:"20px"}}>
                 Support students from Kyrgyzstan, particularly those from rural areas
                 and young women, in their pursuit of higher education abroad.
                 </p>
-                </Col>
-                <Col>
-                <img style={{marginLeft:"65px"}} src={mission2} alt=""/>
-                <p style={{width:"350px", textAlign:"center"}}>
+                </Row>
+                <Row style={{alignItems:"center", paddingLeft:"250px"}}>
+                <p style={{width:"60%", fontSize:"20px"}}>
                 Provide students with the necessary
                 resources, mentorship, and guidance to navigate the application
                 and enrollment process for universities outside of Kyrgyzstan.
                 </p>
-                </Col>
+                <img style={{width:"40%"}} src={mission2} alt=""/>
             </Row>
             </div>
             </div>
