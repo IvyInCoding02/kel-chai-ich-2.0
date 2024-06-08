@@ -12,7 +12,6 @@ import styles from './homepage.module.css';
 export default function HomePage() {
   return (
     <section>
-        {/* <Container> */}
         <div>
             <Row className="align-items-center" >
             <Col>
@@ -41,14 +40,14 @@ export default function HomePage() {
                 </Col>
                 <Col>
                 <img className={styles.secondBoxImg} src={vision2} alt=""/>
-                <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
+                <p className={styles.secondBoxDescr}>
                 Get all participants accepted to universities abroad with the
                 opportunity to qualify for needed scholarships and funding.
               </p>
                 </Col>
                 <Col>
                 <img className={styles.secondBoxImg} src={vision3} alt=""/>
-                <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
+                <p className={styles.secondBoxDescr}>
                 Establish a nation of educated girls investing and supporting
                 the younger generation of the program to pursue education at
                 their dream universities and countries.
@@ -65,17 +64,16 @@ export default function HomePage() {
                 and young women, in their pursuit of higher education abroad.
                 </p>
                 </Row>
-                <Row style={{alignItems:"center", paddingLeft:"250px"}}>
-                <p style={{width:"60%", fontSize:"20px"}}>
+                <Row className={styles.thirdBoxRow2}>
+                <p className={styles.thirdBoxDescr2}>
                 Provide students with the necessary
                 resources, mentorship, and guidance to navigate the application
                 and enrollment process for universities outside of Kyrgyzstan.
                 </p>
-                <img style={{width:"40%"}} src={mission2} alt=""/>
+                <img className={styles.thirdBoxImg2} src={mission2} alt=""/>
             </Row>
             </div>
             </div>
-        {/* </Container> */}
     </section>
   )
 }

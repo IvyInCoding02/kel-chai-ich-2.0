@@ -53,11 +53,11 @@
     padding-left:250px;
 }
 
-.thirdBoxImg{
+.thirdBoxImg2{
     width:"40%";
 }
 
-.thirdBoxDescr{
+.thirdBoxDescr2{
     width:60%;
     font-size:20px;
 }
@@ -87,41 +87,42 @@
     }
     
     
-    .seconBoxImg{
-        /* width:500%;
-        margin-left:0px; */
+    .secondBoxImg{
+        margin-left:60px;
     }
     
     .secondBoxDescr{
         width:350px;
         text-align:center;
         font-size:18px;
+        margin-left:20px;
     }
     
     .thirdBoxHeader{
         margin-left:60px;
         padding:10px;
-        font-size:30px;
+        font-size:40px;
     }
     
     .thirdBoxRow{
         align-items:center;
-        padding-right:10px;
+        padding-right:100px;
         /* margin-bottom:-150px; */
     }
     
     .thirdBoxImg{
-        width: 30%;
+        width: 100%;
     }
     
     .thirdBoxDescr{
-        width:50%;
+        width:90%;
         font-size:20px;
+        margin-left:20px;
     }
 
     .thirdBoxRow2{
         align-items:center;
-        /* padding-left:50px; */
+        padding-left:90px;
     }
 
     .thirdBoxImg2{
@@ -130,7 +131,9 @@
     
     .thirdBoxDescr2{
         width:100%;
-        font-size:20px;
+        /* margin: 600px, 200px; */
+        margin-top:200px;
+        color:red;
     }
     
 
