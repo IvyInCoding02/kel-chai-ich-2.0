@@ -31,23 +31,23 @@ export default function HomePage() {
             <h1 style={{marginLeft:"100px", padding:"10px",fontSize:"70px"}}>OUR VISION</h1>
             <Row className="align-items-center" style={{margin:"40px"}}>
                 <Col>
-                <img style={{width:"90%", marginLeft:"50px"}} src={vision1} alt=""/>
-                <p style={{width:"350px", textAlign:"center"}}>
+                <img style={{width:"90%", marginLeft:"10px"}} src={vision1} alt=""/>
+                <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
                 Guide perspective girls from regions of Kyrgyzstan and fully
                 assist with the application process through mentorship and peer
                 support.
               </p>
                 </Col>
                 <Col>
-                <img style={{width:"90%", marginLeft:"50px"}} src={vision2} alt=""/>
-                <p style={{width:"350px", textAlign:"center"}}>
+                <img style={{width:"90%", marginLeft:"10px"}} src={vision2} alt=""/>
+                <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
                 Get all participants accepted to universities abroad with the
                 opportunity to qualify for needed scholarships and funding.
               </p>
                 </Col>
                 <Col>
-                <img style={{width:"90%", marginLeft:"50px"}} src={vision3} alt=""/>
-                <p style={{width:"350px", textAlign:"center"}}>
+                <img style={{width:"90%", marginLeft:"10px"}} src={vision3} alt=""/>
+                <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
                 Establish a nation of educated girls investing and supporting
                 the younger generation of the program to pursue education at
                 their dream universities and countries.
