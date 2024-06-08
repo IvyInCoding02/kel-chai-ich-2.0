@@ -1,0 +1,137 @@
+.firstBoxImage {
+    padding: 30px; 
+    margin-right: 15px;
+    width: 100%
+}
+
+
+.firstBoxDescr{
+    width:600px;
+}
+
+.secondBoxHeader{
+    margin-left:100px;
+    padding:10px;
+    font-size:70px;
+}
+
+
+.seconBoxImg{
+    /* width:500%;
+    margin-left:0px; */
+}
+
+.secondBoxDescr{
+    width:350px;
+    text-align:center;
+    font-size:18px;
+}
+
+.thirdBoxHeader{
+    margin-left:650px;
+    padding:10px;
+    font-size:70px;
+}
+
+.thirdBoxRow{
+    align-items:center;
+    padding-right:10px;
+    margin-bottom:-150px;
+}
+
+.thirdBoxImg{
+    width: 30%;
+}
+
+.thirdBoxDescr{
+    width:50%;
+    font-size:20px;
+}
+
+.thirdBoxRow2{
+    align-items:center;
+    padding-left:250px;
+}
+
+.thirdBoxImg{
+    width:"40%";
+}
+
+.thirdBoxDescr{
+    width:60%;
+    font-size:20px;
+}
+
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 480px){
+    .firstBoxImage {
+        padding: 30px; 
+        margin-right: 15px;
+        width: 100%
+    }
+    
+    
+    .firstBoxDescr{
+        width:400px;
+        font-size: 12px;
+    }
+    
+    .secondBoxHeader{
+        margin-left:100px;
+        padding:10px;
+        font-size:30px;
+    }
+    
+    
+    .seconBoxImg{
+        /* width:500%;
+        margin-left:0px; */
+    }
+    
+    .secondBoxDescr{
+        width:350px;
+        text-align:center;
+        font-size:18px;
+    }
+    
+    .thirdBoxHeader{
+        margin-left:60px;
+        padding:10px;
+        font-size:30px;
+    }
+    
+    .thirdBoxRow{
+        align-items:center;
+        padding-right:10px;
+        /* margin-bottom:-150px; */
+    }
+    
+    .thirdBoxImg{
+        width: 30%;
+    }
+    
+    .thirdBoxDescr{
+        width:50%;
+        font-size:20px;
+    }
+
+    .thirdBoxRow2{
+        align-items:center;
+        /* padding-left:50px; */
+    }
+
+    .thirdBoxImg2{
+        width:"100%";
+    }
+    
+    .thirdBoxDescr2{
+        width:100%;
+        font-size:20px;
+    }
+    
+
+}

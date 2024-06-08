@@ -13,16 +13,16 @@ export const Footer = () => {
           <Row className="align-items-center">
             <Col size={12} sm={4}>
               <img src={logo} alt="Logo" />
-              <Col><a href="#"> Bishkek, Kyrgyzstan. 2023 </a></Col>
-                <Col><Nav.Link href="/login">Login</Nav.Link></Col>
+              <Col className={styles.footerLinks}><a href="#"> Bishkek, Kyrgyzstan. 2023 </a></Col>
+                <Col className={styles.footerLinks}><Nav.Link href="/login">Login</Nav.Link></Col>
             </Col>
            
               <Col size={12} sm={4}>
-               <Col><a href="/">Home</a></Col> 
-                <Col><a href="/scholarships">Scholarships</a></Col>
-                <Col><a href="/aboutus">About Us</a></Col>
-                <Col><a href="/contactus"> Contact Us </a></Col>
-                <Col><a href=""> Partnership </a></Col>
+               <Col className={styles.footerLinks}><a href="/">Home</a></Col> 
+                <Col className={styles.footerLinks}><a href="/scholarships">Scholarships</a></Col>
+                <Col className={styles.footerLinks}><a href="/aboutus">About Us</a></Col>
+                <Col className={styles.footerLinks}><a href="/contactus"> Contact Us </a></Col>
+                <Col className={styles.footerLinks}><a href=""> Partnership </a></Col>
               </Col>
             <Col size={12} sm={4} className={styles.icons}>
               <div className="social-icon"> 

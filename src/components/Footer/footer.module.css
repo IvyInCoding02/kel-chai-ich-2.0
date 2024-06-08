@@ -96,11 +96,11 @@
     width: 100%;
   }
   .footer h1 {
-      font-size: 22px; 
+      font-size: 20px; 
   }
 
   .footer img {
-      width: 50%; 
+      width: 40%; 
   }
 
   /* .footer a{
@@ -108,11 +108,16 @@
   } */
 
   .footer p {
-      font-size: 10px;
+      font-size: 12px;
     
   }
 
   .line {
       margin: 5px auto; 
+  }
+
+  .footerLinks{
+    margin-left: 20px;
+    font-size: 12px;
   }
 }

@@ -6,20 +6,21 @@ import vision3 from '../../../assets/images/5.png';
 import mission1 from '../../../assets/images/6.png';
 import mission2 from '../../../assets/images/7.png';
 import land from '../../../assets/images/1.png';
+import styles from './homepage.module.css';
 
 
 export default function HomePage() {
   return (
     <section>
         {/* <Container> */}
-        <div style={{margin:"10px"}}>
-            <Row className="align-items-center" style={{margin:"10px"}}>
-            <Col style={{padding:"30px"}} >
-                <img style={{marginRight:"15px", width:"100%"}} src={land} alt=""/>
+        <div>
+            <Row className="align-items-center" >
+            <Col>
+                <img className={styles.firstBoxImage} src={land} alt=""/>
                 </Col>
-                <Col >
+                <Col>
                 <h1>KEL CHAI ICH - LAND OF OPPORTUNITIES...</h1>
-                <p>
+                <p className={styles.firstBoxDescr}>
                 Kel Chai Ich is nonprofit foundation that focuses on assisting
                 students from Kyrgyzstan, particularly those from rural areas
                 and young women, in their pursuit of higher education in United
@@ -28,25 +29,25 @@ export default function HomePage() {
                 </Col>
             </Row>
             <div>
-            <h1 style={{marginLeft:"100px", padding:"10px",fontSize:"70px"}}>OUR VISION</h1>
-            <Row className="align-items-center" style={{margin:"40px"}}>
+            <h1 className={styles.secondBoxHeader}>OUR VISION</h1>
+            <Row className="align-items-center">
                 <Col>
-                <img style={{width:"90%", marginLeft:"10px"}} src={vision1} alt=""/>
-                <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
+                <img  className={styles.secondBoxImg} src={vision1} alt=""/>
+                <p className={styles.secondBoxDescr}>
                 Guide perspective girls from regions of Kyrgyzstan and fully
                 assist with the application process through mentorship and peer
                 support.
               </p>
                 </Col>
                 <Col>
-                <img style={{width:"90%", marginLeft:"10px"}} src={vision2} alt=""/>
+                <img className={styles.secondBoxImg} src={vision2} alt=""/>
                 <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
                 Get all participants accepted to universities abroad with the
                 opportunity to qualify for needed scholarships and funding.
               </p>
                 </Col>
                 <Col>
-                <img style={{width:"90%", marginLeft:"10px"}} src={vision3} alt=""/>
+                <img className={styles.secondBoxImg} src={vision3} alt=""/>
                 <p style={{width:"350px", textAlign:"center", fontSize:"20px"}}>
                 Establish a nation of educated girls investing and supporting
                 the younger generation of the program to pursue education at
@@ -56,10 +57,10 @@ export default function HomePage() {
             </Row>
             </div>
             <div>
-            <h1 style={{marginLeft:"650px", padding:"10px",fontSize:"70px"}}>OUR MISSION</h1>
-            <Row style={{alignItems:"center", paddingRight:"10px", marginBottom:"-150px"}} >
-              <img style={{width:"30%"}} src={mission1} alt=""/>
-              <p style={{width:"50%", fontSize:"20px"}}>
+            <h1 className={styles.thirdBoxHeader}>OUR MISSION</h1>
+            <Row className={styles.thirdBoxRow}>
+              <img className={styles.thirdBoxImg} src={mission1} alt=""/>
+              <p className={styles.thirdBoxDescr}>
                 Support students from Kyrgyzstan, particularly those from rural areas
                 and young women, in their pursuit of higher education abroad.
                 </p>
