@@ -247,36 +247,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner {
-  margin:75px 15px;
-  width: 98%;
-  height: 110%;
-  padding: 160px 0 100px 0px;
-  background-image: url('./assets/images/kyrgyzgirls2.jpg');
+  margin:0px 5px;
+  width: 100%;
+  height: 100%;
+  padding: 240px 0 100px 100px;
+  background-image: url('./assets/img/2.jpg');
   background-position: top center;
   background-size: cover;
   background-position: center;
 }
 
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: -6px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
-}
 
 .banner h1 {
-  font-size: 55px;
-  font-weight: 700;
+  width:90%;
+  font-size: 50px;
   letter-spacing: 0.5px;
   line-height: 1;
-  margin-bottom: 20px;
   display: block;
-  color: rgba(238, 240, 241, 0.894);
-  font-weight: 1500;
+  color: rgba(24, 24, 26, 0.894);
+  background-color: rgb(255, 255, 255);
+  opacity:1;
+  /* bottom: 500px; */
+  font-weight: 700;
+  /* padding-top: 300px; */
 }
 
 .banner p {

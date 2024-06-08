@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
-import headerImg from '../assets/images/background2.jpg';
 import { useEffect, useState } from "react";
 import contactUs, { ContactUs } from "./pages/contactUs/ContactUs";
 import { Footer } from "./Footer/Footer";
@@ -49,9 +48,9 @@ export const Banner = () => {
         <Container>
           <Row className="align-items">
             <Col xs={12} md={6} xl={7}>
-              <span className="tagline">Welcome to Kel Chai Ich</span>
               <h1>
-                {"Hi, your journey starts here. "}
+              {/* <span className="tagline">Welcome to Kel Chai Ich</span> */}
+                {"Welcome! Your journey starts here. "}
                 <span className="wrap">{text}</span>
               </h1>
               {/* <p id="headparagrapgh">
