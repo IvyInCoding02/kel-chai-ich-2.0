@@ -72,6 +72,7 @@
 @media screen and (max-width: 480px){
 
     .container{
+        box-sizing: border-box;
         max-width: 100%;
     }
     .firstBoxImage {
@@ -111,7 +112,7 @@
     .thirdBoxHeader{
         margin-left:60px;
         padding:10px;
-        font-size:40px;
+        font-size:0px;
     }
 
     .thirdBoxRow{

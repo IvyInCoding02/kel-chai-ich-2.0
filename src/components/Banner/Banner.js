@@ -77,7 +77,7 @@ export const Banner = () => {
         </div>
         <HomePage/>
       </section>
-      
+
     );
 }
 

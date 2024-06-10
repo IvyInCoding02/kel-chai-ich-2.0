@@ -12,7 +12,7 @@ import styles from './homepage.module.css';
 export default function HomePage() {
   return (
     <section>
-        <div>
+        <div className={styles.container}>
             <Row className="align-items-center" >
             <Col>
                 <img className={styles.firstBoxImage} src={land} alt=""/>
