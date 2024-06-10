@@ -1,6 +1,6 @@
-.banner {
+/* .banner {
     margin:0px 5px;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     padding: 260px 0 100px 100px;
     background-image: url('../../assets/img/2.jpg');
@@ -21,41 +21,6 @@
     opacity:1;
     font-weight: 700;
   }
-  
-  .banner p {
-    bottom:25px;
-    color: rgba(238, 240, 241, 0.894);
-    font-weight: 800;
-    opacity: 1;
-    font-size: 22px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    width: 90%;
-  }
-  
-  .banner button {
-    color:rgba(20, 152, 20, 0.952);
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .banner button svg {
-    font-size: 25px;
-    margin-left: 10px;
-    transition: 0.3s ease-in-out;
-    line-height: 1;
-  }
-  
-  .banner button:hover svg {
-    margin-left: 25px;
-  }
-  .banner img {
-    animation: updown 3s linear infinite;
-  }
 
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
@@ -69,19 +34,137 @@
 @media screen and (max-width: 480px) {
     .banner {
         width: 100%;
-        max-height: 100%;
+        max-height: 150%;
         background-image: url('../../assets/img/2.jpg');
+        background-position: top center;
+        overflow: hidden;
       }
-    
+
       .banner h1 {
-        width:50%;
-        margin:100px 100px 100px 0px;
+        max-width:100%;
         font-size: 20px;
         letter-spacing: 0.5px;
         line-height: 1.2;
-        display: block;
         color: rgba(15, 15, 31, 0.894);
         background-color: rgb(240, 236, 243);
         font-weight: 500;
       }
-    }
+    } */
+     /* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner Styles */
+.banner {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 260px 0 100px 100px;
+  background-image: url('../../assets/img/2.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* Ensure no overflow */
+  max-width: 100vw; /* Maximum width */
+  min-width: 320px; /* Minimum width for very small screens */
+}
+
+.banner h1 {
+  width: 85%;
+  padding-left: 20px;
+  font-size: 45px;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  display: block;
+  color: rgba(24, 24, 26, 0.894);
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  font-weight: 700;
+  max-width: 100%; /* Ensure it doesn’t exceed the parent width */
+}
+
+.banner p {
+  color: rgba(238, 240, 241, 0.894);
+  font-weight: 800;
+  opacity: 1;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 90%;
+  max-width: 100%; /* Ensure it doesn’t exceed the parent width */
+}
+
+.banner button {
+  color: rgba(20, 152, 20, 0.952);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  max-width: 100%; /* Ensure it doesn’t exceed the parent width */
+}
+
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+
+.banner button:hover svg {
+  margin-left: 25px;
+}
+
+.banner img {
+  animation: updown 3s linear infinite;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .banner {
+    padding: 200px 20px 80px 20px; /* Adjusted padding */
+    max-width: 100vw; /* Ensure it fits within viewport */
+    min-width: 320px; /* Minimum width */
+  }
+  .banner h1 {
+    font-size: 35px;
+    padding-left: 15px;
+  }
+  }
+
+/* Media query for phones */
+@media (max-width: 480px) {
+  .banner {
+    position:relative;
+    padding: 10px 20px 60px 20px; /* Adjusted padding to fit within phone screen */
+    max-width: 100vw; /* Ensure it fits within viewport */
+    min-width: 320px; /* Minimum width */
+  }
+  .banner h1 {
+    position:absolute;
+    margin:60px 10px 10px 20px;
+    width: 40%;
+    font-size: 18px;
+    
+
+}
+};
