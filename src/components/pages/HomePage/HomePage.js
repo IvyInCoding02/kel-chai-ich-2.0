@@ -18,7 +18,7 @@ export default function HomePage() {
                 <img className={styles.firstBoxImage} src={land} alt=""/>
                 </Col>
                 <Col>
-                <h1>KEL CHAI ICH - LAND OF OPPORTUNITIES...</h1>
+                <h1 className={styles.firstBoxHeader}>KEL CHAI ICH - LAND OF OPPORTUNITIES...</h1>
                 <p className={styles.firstBoxDescr}>
                 Kel Chai Ich is nonprofit foundation that focuses on assisting
                 students from Kyrgyzstan, particularly those from rural areas

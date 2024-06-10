@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Banner } from "./Banner";
+import { Banner } from "./Banner/Banner";
 import Resources from "./pages/resources/Resources";
 import { AboutUs } from "./pages/AboutUs/AboutUs";
 import OurAlumni from "./pages/OurAlumni";

@@ -2,9 +2,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
 import { useEffect, useState } from "react";
-import contactUs, { ContactUs } from "./pages/contactUs/ContactUs";
-import { Footer } from "./Footer/Footer";
-import HomePage from "./pages/HomePage/HomePage";
+import contactUs, { ContactUs } from "../pages/contactUs/ContactUs";
+import { Footer } from "../Footer/Footer";
+import HomePage from "../pages/HomePage/HomePage";
+import styles from './banner.module.css';
 
 
 export const Banner = () => {
@@ -44,14 +45,14 @@ export const Banner = () => {
     }
     return (
       <section>
-        <div className="banner" id="home">
+        <div className={styles.banner} id="home">
         <Container>
-          <Row className="align-items">
+          <Row className={styles.alignItems}>
             <Col xs={12} md={6} xl={7}>
               <h1>
               {/* <span className="tagline">Welcome to Kel Chai Ich</span> */}
                 {"Welcome! Your journey starts here. "}
-                <span className="wrap">{text}</span>
+                <span className={styles.wrap}>{text}</span>
               </h1>
               {/* <p id="headparagrapgh">
                 Kel Chai Ich is nonprofit foundation that focuses on assisting
@@ -63,7 +64,7 @@ export const Banner = () => {
                 Let's connect <ArrowRightCircle size={25} />
               </button> */}
               <Nav.Link href="/partnership">
-                <button className="vvd">
+                <button className={styles.wrap}>
                   {/* <span>Let's Connect</span> */}
                 </button>
               </Nav.Link>

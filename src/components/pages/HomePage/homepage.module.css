@@ -16,15 +16,17 @@
 }
 
 
-.seconBoxImg{
+.secondBoxImg{
     /* width:500%;
     margin-left:0px; */
+    margin-left:60px;
 }
 
 .secondBoxDescr{
     width:350px;
     text-align:center;
     font-size:18px;
+    padding-left:40px;
 }
 
 .thirdBoxHeader{
@@ -54,7 +56,7 @@
 }
 
 .thirdBoxImg2{
-    width:"40%";
+    width:35%;
 }
 
 .thirdBoxDescr2{
@@ -68,55 +70,63 @@
 }
 
 @media screen and (max-width: 480px){
+
+    .container{
+        max-width: 100%;
+    }
     .firstBoxImage {
-        padding: 30px; 
+        padding: 20px 30px; 
         margin-right: 15px;
         width: 100%
     }
-    
-    
-    .firstBoxDescr{
-        width:400px;
-        font-size: 12px;
+
+    .firstBoxHeader{
+        padding-left: 50px;
     }
-    
+
+    .firstBoxDescr{
+        width:450px;
+        font-size: 16px;
+        padding-left: 50px;
+    }
+
     .secondBoxHeader{
         margin-left:100px;
         padding:10px;
-        font-size:30px;
+        font-size:40px;
     }
-    
-    
+
+
     .secondBoxImg{
-        margin-left:60px;
+        margin-left:80px;
     }
-    
+
     .secondBoxDescr{
-        width:350px;
+        width:440px;
         text-align:center;
         font-size:18px;
-        margin-left:20px;
+        margin-left:10px;
     }
-    
+
     .thirdBoxHeader{
         margin-left:60px;
         padding:10px;
         font-size:40px;
     }
-    
+
     .thirdBoxRow{
         align-items:center;
         padding-right:100px;
         /* margin-bottom:-150px; */
     }
-    
+
     .thirdBoxImg{
-        width: 100%;
+        width: 80%;
     }
-    
+
     .thirdBoxDescr{
-        width:90%;
-        font-size:20px;
+        width:100%;
+        font-size:16px;
         margin-left:20px;
     }
 
@@ -126,15 +136,17 @@
     }
 
     .thirdBoxImg2{
-        width:"100%";
+        width:80%;
+       
     }
-    
+
     .thirdBoxDescr2{
         width:100%;
         /* margin: 600px, 200px; */
-        margin-top:200px;
-        color:red;
+        margin-top:170px;
+        font-size: 16px;
+       
     }
-    
+
 
 }

@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { NavBar } from './components/NavBar';
-import { Banner } from './components/Banner';
+import { NavBar } from './components/Navbar/NavBar';
+import { Banner } from './components/Banner/Banner';
 import { AboutUs } from './components/pages/AboutUs/AboutUs';
 import { Scholarships } from './components/pages/Scholarships';
 import { Footer } from './components/Footer/Footer';
