@@ -152,17 +152,24 @@
   }
 
 /* Media query for phones */
-@media (max-width: 480px) {
-  .banner {
-    position:relative;
-    bottom: 50px;
-    max-width: 100%; /* Ensure it fits within viewport */
-    min-width: 100%; /* Minimum width */
-  }
-  .banner h1 {
-    position:absolute;
-    margin:50px 0px 10px 0px;
-    width: 30%;
-    font-size: 20px;
-}
-};
+  @media (max-width: 480px) {
+    .banner {
+      position: relative;
+      bottom: 50px;
+      width: 200%; /* Ensure it fits within viewport */
+      height: auto; /* Ensure height adjusts to content */
+      background-size: cover; /* Make background image cover the entire banner */
+      background-position: center; /* Center the background image */
+    }
+    .banner h1 {
+      position: absolute;
+      top: 50px; /* Adjust based on your design */
+      left: 10px; /* Add some padding from the left */
+      right: 10px; /* Add some padding from the right */
+      margin: 0; /* Remove margin */
+      width: auto; /* Adjust width to fit content */
+      font-size: 20px; /* Adjust font size */
+      color: #fff; /* Ensure text is readable */
+      text-align: center; /* Center the text */
+    }
+  };
