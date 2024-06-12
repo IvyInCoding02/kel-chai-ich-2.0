@@ -76,40 +76,49 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-@media (max-width:480px) {
+/* General CSS */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+@media (max-width: 480px) {
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 2px;
   }
-	main .container {
-		max-width: 100%;
-		padding: 0 100px;
+
+  main .container {
+    max-width: 100%;
     font-size: 50px;
-    background-color: #fff;
-  
-	}
+    padding: 0; /* Ensure no padding causes overflow */
+    margin: 0; /* Ensure no margin causes overflow */
+  }
 }
 
-/* Navbar Css */
+/* Navbar CSS */
 nav.navbar {
-  padding: 0px 0;
+  padding: 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 9999;
-  transition:  0.32s ease-in-out;
+  transition: 0.32s ease-in-out;
 }
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: black;
 }
 
 nav.navbar a.navbar-brand {
-    width: 10%; 
+  width: 16%;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link 
- { 
+nav.navbar .navbar-nav .nav-link.navbar-link { 
   display: flex;
   justify-content: flex-end;
   font-weight: 500;
@@ -120,13 +129,10 @@ nav.navbar .navbar-nav .nav-link.navbar-link
   opacity: 0.5;
 }
 
-
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 3;
+  opacity: 1;
 }
-
-
 
 .navbar-text button {
   font-weight: 700;
@@ -134,10 +140,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   border: 1px solid #57d47bbe;
   padding: 4px 6px;
   font-size: 12px;
-  margin-left: 374px;
-	position: relative;
-	background-color: transparent;
-	transition: 0.3s ease-in-out;
+  margin-left: 0; /* Adjusted to prevent overflow */
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
 }
 
 .navbar-text button::before {
@@ -145,7 +151,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
   left: 0;
   top: 0;
   z-index: -1;
@@ -153,34 +158,30 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .navbar-text button:hover {
-  color: #121212;
-}
-.navbar-text button:hover::before {
-	content: "";
-	width: 100%;
-	height: 100%;
-	position: absolute;
+  color: #c04343;
 }
 
+.navbar-text button:hover::before {
+  width: 100%;
+}
 
 nav.navbar .navbar-toggler {
-  position: absolute; /* or fixed */
-  top: 8px; /* adjust based on your design */
-  right: 20px; /* adjust based on your design */
-  z-index: 1000; /* ensure it's above other elements */
-  border-color:rgb(8, 56, 16);
+  position: fixed;
+  font-size: 12px;
+  top: 8px;
+  right: 20px;
+  z-index: 1000;
+  border-color: rgb(8, 56, 16);
   border-width: 2px;
+  padding: 2px 4px;
+  width: auto;
+  height: auto;
 }
 
-nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
-  font-size: 12px;
-  padding: 2px 6px;
 }
-
-
 
 
 

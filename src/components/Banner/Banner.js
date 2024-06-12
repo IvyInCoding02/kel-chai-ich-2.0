@@ -50,9 +50,9 @@ export const Banner = () => {
           <Row className={styles.alignItems}>
             <Col xs={12} md={6} xl={7}>
               <h1>
-              {/* <span className="tagline">Welcome to Kel Chai Ich</span> */}
-                {"Welcome! Your journey starts here. "}
-                <span className={styles.wrap}>{text}</span>
+              {/* <span className="tagline">Welcome!</span> */}
+                {"Welcome! "}
+                <span className={styles.wrap}>Your journey starts here. {text}</span>
               </h1>
               {/* <p id="headparagrapgh">
                 Kel Chai Ich is nonprofit foundation that focuses on assisting
