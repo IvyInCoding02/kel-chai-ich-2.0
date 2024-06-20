@@ -56,7 +56,7 @@ export default function HomePage() {
             </Row>
             </div>
             <div>
-            <h1 className={styles.thirdBoxHeader}>OUR MISSION</h1>
+            <h1 className={styles.thirdBoxHeader2}>OUR MISSION</h1>
             <Row className={styles.thirdBoxRow}>
               <img className={styles.thirdBoxImg} src={mission1} alt=""/>
               <p className={styles.thirdBoxDescr}>

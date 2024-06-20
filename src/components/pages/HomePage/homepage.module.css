@@ -99,6 +99,7 @@
 
 
     .secondBoxImg{
+        width:80%;
         margin-left:80px;
     }
 
@@ -122,7 +123,7 @@
     }
 
     .thirdBoxImg{
-        width: 80%;
+        width: 90%;
     }
 
     .thirdBoxDescr{
@@ -135,7 +136,13 @@
     .thirdBoxRow2{
         width: 100%;
         align-items:center;
-        padding-left:120px;
+        padding-left:0px;
+    }
+
+    .thirdBoxHeader2{
+        margin-left:60px;
+        padding:10px;
+        font-size:40px;
     }
 
     .thirdBoxImg2{
@@ -144,8 +151,7 @@
     }
 
     .thirdBoxDescr2{
-        width:100%;
-        /* margin: 600px, 200px; */
+        width:80%;
         margin-top:170px;
         font-size: 16px;
         text-align: center;

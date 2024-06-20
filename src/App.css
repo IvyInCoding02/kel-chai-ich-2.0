@@ -1,18 +1,18 @@
 /************ Custom Font ************/
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
-	font-weight: 700;
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
-	font-weight: 500;
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
-	font-weight: 400;
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
 }
 
 /************ Default Css ************/
@@ -25,7 +25,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 65px;
+  scroll-padding-top: 45px;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: white !important;
-  color: rgb(6, 3, 1)!important;
+  color: rgb(6, 3, 1) !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 }
 
 img {
-  width: 70%;
+  width: 30%;
   height: auto;
 }
 
@@ -68,34 +68,56 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
-@media (min-width:1200px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 100px;
-  
-	}
+@media (min-width: 1200px) {
+  main .container {
+      max-width: 100%;
+      padding: 0 100px;
+  }
 }
 
-/* General CSS */
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+@media (max-width: 768px) {
+  main .container {
+      max-width: 100%;
+      font-size: 20px; /* Adjust font size for tablets */
+      padding: 0 20px; /* Add padding for tablets */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+      font-size: 10px; /* Adjust font size for tablets */
+  }
+
+
+  .navbar-text button {
+      font-size: 10px; /* Adjust button size for tablets */
+      border: #c04343;
+  }
 }
 
 @media (max-width: 480px) {
   html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 2px;
+      scroll-behavior: smooth;
+      scroll-padding-top: 65px;
   }
 
   main .container {
-    max-width: 100%;
-    font-size: 50px;
-    padding: 0; /* Ensure no padding causes overflow */
-    margin: 0; /* Ensure no margin causes overflow */
+      max-width: 100%;
+      font-size: 14px; /* Adjust font size for phones */
+      padding: 0; /* Ensure no padding causes overflow */
+      margin: 0; /* Ensure no margin causes overflow */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+      font-size: 8px; /* Adjust font size for phones */
+      padding: 0 5px; /* Adjust padding for phones */
+  }
+
+  .navbar-text button {
+      font-size: 8px; /* Adjust button size for phones */
   }
 }
 
@@ -118,7 +140,7 @@ nav.navbar a.navbar-brand {
   width: 16%;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link { 
+nav.navbar .navbar-nav .nav-link.navbar-link {
   display: flex;
   justify-content: flex-end;
   font-weight: 500;
@@ -137,10 +159,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .navbar-text button {
   font-weight: 700;
   color: rgba(20, 152, 20, 0.952);
-  border: 1px solid #57d47bbe;
+  /* border: 1px solid #57d47bbe; */
   padding: 4px 6px;
   font-size: 12px;
-  margin-left: 0; /* Adjusted to prevent overflow */
+  margin-right: 100px; /* Adjusted to prevent overflow */
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
@@ -171,8 +193,7 @@ nav.navbar .navbar-toggler {
   top: 8px;
   right: 20px;
   z-index: 1000;
-  border-color: rgb(8, 56, 16);
-  border-width: 2px;
+  border: none;
   padding: 2px 4px;
   width: auto;
   height: auto;
@@ -182,6 +203,7 @@ nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
 }
+
 
 
 

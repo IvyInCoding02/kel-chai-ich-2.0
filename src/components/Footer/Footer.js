@@ -24,7 +24,7 @@ export const Footer = () => {
                 <Col className={styles.footerLinks}><a href="/contactus"> Contact Us </a></Col>
                 <Col className={styles.footerLinks}><a href=""> Partnership </a></Col>
               </Col>
-            <Col size={12} sm={4} className={styles.icons}>
+            <Row size={12} sm={4} className={styles.icons}>
               <div className="social-icon"> 
                 <h1>Our social Media</h1>
                 <div className = {styles.iconBox}>
@@ -46,7 +46,7 @@ export const Footer = () => {
                 <p>Instagram</p>
                 </div>      
               </div>
-            </Col>
+            </Row>
             <Col className="text-center txt-sm-center">
               <div className={styles.line}>
                 <p className={styles.footerText}>Kel Chai Ich 2023. All rights reserved.</p>

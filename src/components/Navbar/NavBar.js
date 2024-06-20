@@ -9,6 +9,7 @@ import navIcon3 from "../../assets/img/nav-icon3.svg";
 import { NavDropdown } from "react-bootstrap";
 import { AboutUs } from "../pages/AboutUs/AboutUs";
 import PartnershipPage from "../pages/PartnershipPage/PartnershipPage";
+import styles from './navbar.module.css';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -50,7 +51,6 @@ return (
             }
             onClick={() => onUpdateActiveLink("home")}
           >
-            {" "}
             Home
           </Nav.Link>
           <Nav.Link
@@ -62,13 +62,12 @@ return (
             }
             onClick={() => onUpdateActiveLink("scholarships")}
           >
-            {" "}
             Scholarships
           </Nav.Link>
-          <Nav.Link 
+          {/* <Nav.Link 
             href="/resources" className={activeLink === "resources" ? "active navbar-link" : "navbar-link"}
             onClick={() => onUpdateActiveLink("resources")}> Resources
-          </Nav.Link> 
+          </Nav.Link>  */}
           <Nav.Link
             href="/aboutUs"
             className={
