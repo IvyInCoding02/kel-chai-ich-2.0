@@ -37,19 +37,6 @@ export const AboutUs = () => {
         <Row>
           <Col>
             <div className={styles.aboutBox}>
-              <h2>OUR MISSION</h2>
-              <p>
-                Kel Chai Ich is a comprehensive project designed to support
-                students from Kyrgyzstan, particularly those from rural areas
-                and young women, in their pursuit of higher education abroad.
-                The project aims to provide these students with the necessary
-                resources, mentorship, and guidance to navigate the application
-                and enrollment process for universities outside of Kyrgyzstan.
-              </p>
-              <img style={{maxWidth: "600px", mzxHeight:"300"}}src="https://www.unicef.org/kyrgyzstan/sites/unicef.org.kyrgyzstan/files/styles/press_release_feature/public/DSC02839.jpg?itok=aHg0lcKu"/>
-            </div>
-
-            <div className={styles.aboutBox}>
               <h2>OUR PEOPLE</h2>
               <Carousel
                 responsive={responsive}
@@ -162,32 +149,9 @@ export const AboutUs = () => {
                 </article>
               </Carousel>
             </div>
-
-            <div className={styles.aboutBox}>
-              <h2>OUR VISION</h2>
-              <p>
-                Guide perspective girls from regions of Kyrgyzstan and fully
-                assist with the application process through mentorship and peer
-                support.
-              </p>
-              <p>
-                Get all participants accepted to universities abroad with the
-                opportunity to qualify for needed scholarships and funding.
-              </p>
-              <p>
-                Establish a nation of educated girls investing and supporting
-                the younger generation of the program to pursue education at
-                their dream universities and countries.
-              </p>
-            </div>
           </Col>
         </Row>
       </Container>
-      <img
-        className="background-image-left"
-        src={colorSharp}
-        alt="color-sharp"
-      />
     </section>
   );
 };

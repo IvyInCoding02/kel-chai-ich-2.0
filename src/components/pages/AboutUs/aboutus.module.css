@@ -1,14 +1,13 @@
 /* About Us */
   .about {
-    padding: 120px 0 20px 0;
+    padding: 120px 0 0px 0;
     position: relative;
   }
   .aboutBox {
     background: #339a68;
     border-radius: 64px;
     text-align: center;
-    padding: 60px 50px;
-    margin-bottom: 40px;
+    padding: 30px 40px;
    
   }
   .about h2 {

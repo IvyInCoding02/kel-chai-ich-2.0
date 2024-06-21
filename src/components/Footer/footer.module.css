@@ -12,26 +12,29 @@
     background-repeat: no-repeat;
   }
   .footer h1{
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: green;
+    font-size: 22px;
+    color: rgb(6, 173, 6);
   }
-  
-  .footer img {
-    width: 50%;
+
+  .logo{
+    width: 30%;
+  }
+
+  .socialIcons img {
+    width: 90%;
+    border-color: #f8f4f4;
   }
   .footer p {
     font-weight: 400;
-    font-size: 14px;
-    color: #B8B8B8;
+    font-size: 18px;
+    color: #f8f4f4;
     letter-spacing: 0.5px;
-    margin-top: 20px 0 20px 40px;
-  
+    margin: 20px 0 0px 10px;
   }
 
  .iconBox{
     display: flex;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     flex-direction: row;
     align-items: center;
   }
@@ -39,18 +42,11 @@
   .footer a{
     text-decoration: none;
     color: white;
-   
   }
 
   .footer p{
-    font-size:15px;
-    margin-top: 10px;
-  }
-
-  .icons{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    font-size:14px;
+    margin-top: 4px;
   }
 
   .line {
@@ -121,9 +117,5 @@
     font-size: 12px;
   }
 
-  .icons{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
+
 }
