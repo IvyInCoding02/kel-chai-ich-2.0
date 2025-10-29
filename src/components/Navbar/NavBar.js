@@ -51,7 +51,7 @@ return (
             }
             onClick={() => onUpdateActiveLink("home")}
           >
-            Home
+            Home22222
           </Nav.Link>
           <Nav.Link
             href="/scholarships"
@@ -62,7 +62,7 @@ return (
             }
             onClick={() => onUpdateActiveLink("scholarships")}
           >
-            Scholarships
+            Scholarships22222
           </Nav.Link>
           {/* <Nav.Link 
             href="/resources" className={activeLink === "resources" ? "active navbar-link" : "navbar-link"}
