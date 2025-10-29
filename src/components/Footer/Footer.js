@@ -30,7 +30,7 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/kel-chai-ich-foundation/">
                   <img className = {styles.icons} src={navIcon1} alt="" />
                 </a>
-                <p>LinkedIn</p>
+                <p>LinkedIn Check</p>
                 </div>
                 <div className = {styles.iconBox}>
                 <a href="https://www.facebook.com/profile.php?id=61550845261660&mibextid=LQQJ4d">
