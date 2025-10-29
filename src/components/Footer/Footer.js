@@ -36,7 +36,7 @@ export const Footer = () => {
                 <a href="https://www.facebook.com/profile.php?id=61550845261660&mibextid=LQQJ4d">
                   <img className = {styles.icons} src={navIcon2} alt="" />
                 </a>
-                  <p>Facebook</p>
+                  <p>Facebook 123</p>
                 </div>
                 <div className = {styles.iconBox}>
                 <a href="https://instagram.com/kel_chai_ich?igshid=MzMyNGUyNmU2YQ==">
